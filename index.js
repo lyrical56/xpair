@@ -12,7 +12,7 @@ const readline = require("readline")
 const { parsePhoneNumber } = require("libphonenumber-js")
 
 
-let phoneNumber = "263780934873"
+let phoneNumber = "254112492898"
 
 const pairingCode = !!phoneNumber || process.argv.includes("--pairing-code")
 const useMobile = process.argv.includes("--mobile")
@@ -94,11 +94,11 @@ const {  state, saveCreds } =await useMultiFileAuthState(`./sessions`)
              await XeonBotInc.sendMessage(XeonBotInc.user.id, { text: `⚠️Do not share this file with anybody⚠️\n
      ◨•······················•☐•······················•◧
 ┌─❖
-│ Yowaimo 🥳
+│ Yoho fuck u🥳
 └┬❖  
-┌┤✑  Thanks using Malvin Session Gen
+┌┤✑  Thanks using lyrical Session Gen
 │└────────────┈ ⳹        
-│©2024-2099 Malvin King
+│©2024-2099Kinglyrical
 └─────────────────┈ ⳹
 Don't Forget To Give Star To My Repo ⳹\n\n` }, {quoted: xeonses});
               await delay(1000 * 2) 
